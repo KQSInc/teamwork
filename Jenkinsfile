@@ -19,7 +19,7 @@ pipeline {
                 sh 'lscpu'
             }
         }
-        stage('4-cross the stree'){
+        stage('4-cross the street'){
             steps{
                 sh 'echo "walk"'
                 sh 'du -h'
